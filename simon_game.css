@@ -1,0 +1,44 @@
+
+body {
+    text-align: center;
+    background-color: #a1dff8;
+    color: rgb(26, 19, 19);
+    font-family: Arial;
+}
+
+.btn {
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    border: 3px solid black;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-1, .line-2 {
+    display: flex;
+}
+
+.red { background-color: #e43333; }
+.yellow { background-color: #e9e95b; }
+.green { background-color: lightgreen; }
+.purple { background-color: plum; }
+
+.flash {
+    background-color: rgb(175, 203, 222) !important;
+}
+
+.userFlash {
+    background-color: greenyellow !important;
+}
+
+.game-over {
+    background-color: red;
+}
